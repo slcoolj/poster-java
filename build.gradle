@@ -1,0 +1,7 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+sourceSets.main.java.srcDirs 'src/main/java'
+
+ext.name = "poster-java"
+project.version = "1.0"
+jar.archiveName = "${project.name}-${project.version}.jar"
