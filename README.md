@@ -11,7 +11,7 @@ The output will be in ./build/libs/
 # Usage
 Create an instance of Poster with your arguments adjusted accordingly.
 
-    Poster posterExample = new Poster("http://wow.net", "argument1=test&argument2=lol");
+    Poster posterExample = new Poster("http://wow.net", "argument1=lmao&argument2=lol");
     Poster posterExampleProxy = new Poster("http://wow.net", "argument1=test&argument2=lol", "10.0.0.0", "8080");
 After instantiation, use the function Poster#post to send.               
 
